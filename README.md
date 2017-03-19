@@ -6,6 +6,11 @@ The project is an attempt to address the challenge of finding the best fit candi
 The intelligent interview system utilizes the Voice UI interface of the Amazon Alexa to ask behavioral questions to the candidates to give a virtual feel of the interview.
 
 ## Setup
+
+### Machine Learning Algortihm
+1. Install Google Machine Learning framework in python, TensorFlow.
+2. Run the python script in /MachineLearning directory to get the optimized weights and bias for the Support Vector Machine (SVM) classifier based on your gradient descent. (We have done that and using it in our model).
+
 To run this skill you need to do two things. The first is to deploy the example code in lambda, and the second is to configure the Alexa skill to use Lambda.
 
 ### AWS Lambda Setup
@@ -14,7 +19,7 @@ To run this skill you need to do two things. The first is to deploy the example 
 3. Skip the blueprint
 4. Name the Lambda Function "Interview".
 5. Select the runtime as Java 8
-6. Go to the the root directory containing pom.xml, and run 'mvn assembly:assembly -DdescriptorId=jar-with-dependencies package'. This will generate a zip file named "alexa-skills-kit-samples-1.0-jar-with-dependencies.jar" in the target directory.
+6. Go to the the /alexa-skills-EHR/ directory containing pom.xml, and run 'mvn assembly:assembly -DdescriptorId=jar-with-dependencies package'. This will generate a zip file named "alexa-skills-kit-samples-1.0-jar-with-dependencies.jar" in the target directory.
 7. Select Code entry type as "Upload a .ZIP file" and then upload the "alexa-skills-kit-samples-1.0-jar-with-dependencies.jar" file from the build directory to Lambda
 8. Set the Handler as EHRSystem.EHRsystemSpeechletRequestStreamHandler (this refers to the Lambda RequestStreamHandler file in the zip).
 9. Create a basic execution role and click create.
