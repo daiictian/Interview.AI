@@ -1,0 +1,100 @@
+
+
+{
+  "intents": [
+    {
+      "intent": "NameIntent",
+      "slots":[
+	{
+	  "name":"NAME",
+	  "type":"LIST_NAMES"
+	}
+      ]
+    },
+    {
+      "intent": "YearsIntent",
+      "slots":[
+        {
+          "name": "YEARS",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "ProjectIntent",
+      "slots":[
+        {
+          "name": "PROJECTCOUNT",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "MonthlyIntent",
+      "slots":[
+	{
+	  "name": "HOURCOUNT",
+	  "type": "AMAZON.NUMBER"
+	}
+      ]
+    },
+    {
+      "intent": "SalaryIntent",
+      "slots":[
+        {
+          "name": "SALARY",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "PromotionIntent",
+      "slots":[
+	{
+	  "name": "PROMOTION",
+	  "type": "LIST_PROMOTION"
+	}
+      ]
+    },
+    {
+      "intent": "EvaluationIntent",
+      "slots":[
+        {
+          "name": "EVALUATION",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "LeftIntent",
+      "slots":[
+	{
+	  "name": "LEFT",
+	  "type": "LIST_LEFT"
+	}
+      ]
+    },
+    {
+      "intent": "WorkAccIntent",
+      "slots":[
+	{
+	  "name": "WORKACC",
+	  "type": "LIST_WORKACC"
+	}
+      ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.YesIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    }
+  ]
+}
+
+
+
+

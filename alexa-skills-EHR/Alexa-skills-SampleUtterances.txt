@@ -1,0 +1,40 @@
+NameIntent my name is {NAME}
+NameIntent i am {NAME}
+NameIntent {NAME}
+YearsIntent i am working there for last {YEARS} years
+YearsIntent i am working for {YEARS} years
+YearsIntent i have been working for {YEARS} years
+YearsIntent for last {YEARS} years
+YearsIntent for {YEARS} years
+ProjectIntent i was involved in {PROJECTCOUNT} projects
+ProjectIntent i was working in {PROJECTCOUNT} projects
+ProjectIntent i am working in {PROJECTCOUNT} projects
+ProjectIntent i have been working in {PROJECTCOUNT} projects
+ProjectIntent in {PROJECTCOUNT} projects
+MonthlyIntent i work weekly {HOURCOUNT} hours
+MonthlyIntent on an average, i work for {HOURCOUNT} hours
+MonthlyIntent {HOURCOUNT} hours
+MonthlyIntent i was working {HOURCOUNT} hours weekly
+SalaryIntent my salary was {SALARY}
+SalaryIntent it was {SALARY}
+SalaryIntent my salary is in {SALARY} range
+PromotionIntent {PROMOTION} i got promoted
+PromotionIntent {PROMOTION} i did not get any promotion
+EvaluationIntent my evaluation was around {EVALUATION}
+EvaluationIntent my evaluation was {EVALUATION}
+EvaluationIntent my evaluation is {EVALUATION}
+LeftIntent {LEFT} i left that company
+LeftIntent {LEFT} i left that job
+LeftIntent {LEFT} i am still working there
+LeftIntent {LEFT} i am still working
+LeftIntent {LEFT} i did not left yet
+WorkAccIntent {WORKACC} i had an accident once
+WorkAccIntent {WORKACC} it happened once
+WorkAccIntent {WORKACC} i did not have any accident
+WorkAccIntent {WORKACC} it never happened
+AMAZON.YesIntent yes
+AMAZON.StopIntent no
+AMAZON.StopIntent no turn it off
+AMAZON.StopIntent turn it off
+AMAZON.StopIntent shut down
+AMAZON.HelpIntent help
